@@ -1,0 +1,383 @@
+{"type":"FeatureCollection","name":"dentists","features":[
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -6.8495716,
+                34.0183768
+            ]
+        },
+        "properties": {
+            "amenity": "dentist"
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -6.8516965,
+                33.9952362
+            ]
+        },
+        "properties": {
+            "amenity": "dentist",
+            "name": "Odentologie Gendarmerie Royale"
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -6.8498172,
+                34.019694
+            ]
+        },
+        "properties": {
+            "amenity": "dentist",
+            "name": "Cabinet D'Horthodontie",
+            "name:fr": "Cabinet D'Horthodontie",
+            "phone": "212537722862"
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -6.7944523,
+                34.0362856
+            ]
+        },
+        "properties": {
+            "addr:housenumber": "12",
+            "addr:postcode": "11156",
+            "addr:street": "Rue des C\u00e9driers",
+            "amenity": "dentist",
+            "email": "nour-tellabi@live.fr",
+            "name": "\u0647\u0627\u062a\u0641",
+            "name:ar": "\u0647\u0627\u062a\u0641",
+            "name:fr": "All",
+            "phone": "1234123"
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -6.871404,
+                33.9605503
+            ]
+        },
+        "properties": {
+            "amenity": "dentist",
+            "healthcare": "dentist",
+            "name": "Clinique Dentaire Mahaj"
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -6.8281762,
+                34.0220347
+            ]
+        },
+        "properties": {
+            "addr:housenumber": "28",
+            "amenity": "dentist",
+            "name": "Cabinet Dentaire",
+            "phone": "+212537206619"
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "LineString",
+            "coordinates": [
+                [
+                    -6.8516603,
+                    33.9953407
+                ],
+                [
+                    -6.8516281,
+                    33.9953062
+                ],
+                [
+                    -6.851604,
+                    33.9952751
+                ],
+                [
+                    -6.8515959,
+                    33.9952362
+                ],
+                [
+                    -6.8515959,
+                    33.995195
+                ],
+                [
+                    -6.851612,
+                    33.9951461
+                ],
+                [
+                    -6.8516362,
+                    33.9951183
+                ],
+                [
+                    -6.8516737,
+                    33.9951016
+                ],
+                [
+                    -6.8517153,
+                    33.9950916
+                ],
+                [
+                    -6.8517287,
+                    33.9950916
+                ],
+                [
+                    -6.8517327,
+                    33.9951294
+                ],
+                [
+                    -6.8517689,
+                    33.9951328
+                ],
+                [
+                    -6.8517797,
+                    33.9951583
+                ],
+                [
+                    -6.8517783,
+                    33.9951817
+                ],
+                [
+                    -6.8517649,
+                    33.995195
+                ],
+                [
+                    -6.8517475,
+                    33.9952117
+                ],
+                [
+                    -6.8517582,
+                    33.9952262
+                ],
+                [
+                    -6.8517582,
+                    33.9952439
+                ],
+                [
+                    -6.8517515,
+                    33.9952584
+                ],
+                [
+                    -6.8517354,
+                    33.9952684
+                ],
+                [
+                    -6.8517207,
+                    33.9952795
+                ],
+                [
+                    -6.8517408,
+                    33.995314
+                ],
+                [
+                    -6.8516603,
+                    33.9953407
+                ]
+            ]
+        },
+        "properties": {
+            "amenity": "dentist",
+            "building": "yes"
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "MultiPolygon",
+            "coordinates": [
+                [
+                    [
+                        [
+                            -6.8517797,
+                            33.9951583
+                        ],
+                        [
+                            -6.8517689,
+                            33.9951328
+                        ],
+                        [
+                            -6.8517327,
+                            33.9951294
+                        ],
+                        [
+                            -6.8517287,
+                            33.9950916
+                        ],
+                        [
+                            -6.8517153,
+                            33.9950916
+                        ],
+                        [
+                            -6.8516737,
+                            33.9951016
+                        ],
+                        [
+                            -6.8516362,
+                            33.9951183
+                        ],
+                        [
+                            -6.851612,
+                            33.9951461
+                        ],
+                        [
+                            -6.8515959,
+                            33.995195
+                        ],
+                        [
+                            -6.8515959,
+                            33.9952362
+                        ],
+                        [
+                            -6.851604,
+                            33.9952751
+                        ],
+                        [
+                            -6.8516281,
+                            33.9953062
+                        ],
+                        [
+                            -6.8516603,
+                            33.9953407
+                        ],
+                        [
+                            -6.8517408,
+                            33.995314
+                        ],
+                        [
+                            -6.8517207,
+                            33.9952795
+                        ],
+                        [
+                            -6.8517354,
+                            33.9952684
+                        ],
+                        [
+                            -6.8517515,
+                            33.9952584
+                        ],
+                        [
+                            -6.8517582,
+                            33.9952439
+                        ],
+                        [
+                            -6.8517582,
+                            33.9952262
+                        ],
+                        [
+                            -6.8517475,
+                            33.9952117
+                        ],
+                        [
+                            -6.8517649,
+                            33.995195
+                        ],
+                        [
+                            -6.8517783,
+                            33.9951817
+                        ],
+                        [
+                            -6.8517797,
+                            33.9951583
+                        ]
+                    ]
+                ]
+            ]
+        },
+        "properties": {
+            "amenity": "dentist",
+            "building": "yes"
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "LineString",
+            "coordinates": [
+                [
+                    -6.8437971,
+                    34.0012193
+                ],
+                [
+                    -6.8438211,
+                    34.0011327
+                ],
+                [
+                    -6.8440371,
+                    34.0011738
+                ],
+                [
+                    -6.844013,
+                    34.0012605
+                ],
+                [
+                    -6.8437971,
+                    34.0012193
+                ]
+            ]
+        },
+        "properties": {
+            "addr:street": "Avenue des Nations Unies",
+            "amenity": "dentist",
+            "building": "commercial",
+            "name": "Bo Sourire",
+            "source": "Kaart Ground Survey 2018"
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "MultiPolygon",
+            "coordinates": [
+                [
+                    [
+                        [
+                            -6.8440371,
+                            34.0011738
+                        ],
+                        [
+                            -6.8438211,
+                            34.0011327
+                        ],
+                        [
+                            -6.8437971,
+                            34.0012193
+                        ],
+                        [
+                            -6.844013,
+                            34.0012605
+                        ],
+                        [
+                            -6.8440371,
+                            34.0011738
+                        ]
+                    ]
+                ]
+            ]
+        },
+        "properties": {
+            "addr:street": "Avenue des Nations Unies",
+            "amenity": "dentist",
+            "building": "commercial",
+            "name": "Bo Sourire",
+            "source": "Kaart Ground Survey 2018"
+        }
+    }
+]}

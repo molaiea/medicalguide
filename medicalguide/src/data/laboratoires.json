@@ -1,0 +1,259 @@
+{"type":"FeatureCollection","name":"laboratoires","features":[
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -6.8486961,
+                33.9892433
+            ]
+        },
+        "properties": {
+            "amenity": "doctors",
+            "name": "Laboratoire"
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -6.8498253,
+                33.9883226
+            ]
+        },
+        "properties": {
+            "amenity": "doctors",
+            "healthcare": "doctor",
+            "name": "Laboratoire"
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -6.8234941,
+                34.0334354
+            ]
+        },
+        "properties": {
+            "amenity": "doctors",
+            "name": "Laboratoire Rhazali"
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -6.9281468,
+                33.9304766
+            ]
+        },
+        "properties": {
+            "amenity": "doctors",
+            "name": "Laboratoire m\u00e9dicale international \u0645\u062e\u062a\u0628\u0631 \u0627\u0644\u062a\u062d\u0627\u0644\u064a\u0644 \u0627\u0644\u062f\u0648\u0644\u064a",
+            "name:ar": "\u0645\u062e\u062a\u0628\u0631 \u0627\u0644\u062a\u062d\u0627\u0644\u064a\u0644 \u0627\u0644\u062f\u0648\u0644\u064a",
+            "name:fr": "Laboratoire m\u00e9dicale international"
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -6.9300393,
+                33.9249017
+            ]
+        },
+        "properties": {
+            "amenity": "doctors",
+            "name": "Laboratoire m\u00e9dical \u0645\u062e\u062a\u0628\u0631 \u0627\u0644\u062a\u062d\u0627\u0644\u064a\u0644",
+            "name:ar": "\u0645\u062e\u062a\u0628\u0631 \u0627\u0644\u062a\u062d\u0627\u0644\u064a\u0644",
+            "name:fr": "Laboratoire m\u00e9dical"
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -6.8283489,
+                34.0170145
+            ]
+        },
+        "properties": {
+            "addr:street": "Rue d'Annaba",
+            "healthcare": "laboratory",
+            "name": "Unibio - Laboratoire D'annalyses Medicales",
+            "source": "Kaart Ground Survey"
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -6.859602,
+                34.0104635
+            ]
+        },
+        "properties": {
+            "addr:street": "Avenue Sidi Mohammed Ben Abdellah",
+            "healthcare": "laboratory",
+            "name": "Laboratoire Hassouni D'Analyses Medicales",
+            "source": "Kaart Ground Survey"
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -6.851086,
+                33.9968987
+            ]
+        },
+        "properties": {
+            "addr:city": "Rabat",
+            "addr:housenumber": "37",
+            "addr:postcode": "10080",
+            "addr:street": "Avenue de France \u0634\u0627\u0631\u0639 \u0641\u0631\u0646\u0633\u0627",
+            "healthcare": "laboratory",
+            "name": "Centre De Biologie Agdal (CBA)",
+            "opening_hours": "24/7",
+            "phone": "+212 537777010",
+            "source": "Kaart Ground Survey 2018"
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -6.8643415,
+                33.9693411
+            ]
+        },
+        "properties": {
+            "addr:street": "Rue Maziata",
+            "healthcare": "laboratory",
+            "name": "Laboriad",
+            "source": "Kaart Ground Survey"
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                -6.8433819,
+                33.9976341
+            ]
+        },
+        "properties": {
+            "addr:housenumber": "64",
+            "addr:street": "Avenue Omar Ibn Khattab",
+            "healthcare": "laboratory",
+            "name": "Laboratoire BIOCLINIC d'Analyse M\u00e9dicales",
+            "phone": "+212537682525"
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "LineString",
+            "coordinates": [
+                [
+                    -6.8468669,
+                    33.9936042
+                ],
+                [
+                    -6.8467033,
+                    33.9933552
+                ],
+                [
+                    -6.8468805,
+                    33.9933215
+                ],
+                [
+                    -6.8469259,
+                    33.9933129
+                ],
+                [
+                    -6.8469742,
+                    33.9934041
+                ],
+                [
+                    -6.8470574,
+                    33.9933708
+                ],
+                [
+                    -6.8471285,
+                    33.9935065
+                ],
+                [
+                    -6.8468669,
+                    33.9936042
+                ]
+            ]
+        },
+        "properties": {
+            "amenity": "hospital",
+            "emergency": "no",
+            "healthcare": "hospital",
+            "name": "Laboratoire analyse m\u00e9dicale Latifa Ouali"
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "MultiPolygon",
+            "coordinates": [
+                [
+                    [
+                        [
+                            -6.8471285,
+                            33.9935065
+                        ],
+                        [
+                            -6.8470574,
+                            33.9933708
+                        ],
+                        [
+                            -6.8469742,
+                            33.9934041
+                        ],
+                        [
+                            -6.8469259,
+                            33.9933129
+                        ],
+                        [
+                            -6.8468805,
+                            33.9933215
+                        ],
+                        [
+                            -6.8467033,
+                            33.9933552
+                        ],
+                        [
+                            -6.8468669,
+                            33.9936042
+                        ],
+                        [
+                            -6.8471285,
+                            33.9935065
+                        ]
+                    ]
+                ]
+            ]
+        },
+        "properties": {
+            "amenity": "hospital",
+            "emergency": "no",
+            "healthcare": "hospital",
+            "name": "Laboratoire analyse m\u00e9dicale Latifa Ouali"
+        }
+    }
+]}

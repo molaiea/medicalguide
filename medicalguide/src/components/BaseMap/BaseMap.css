@@ -1,0 +1,10 @@
+.leaflet-container {
+    width: 100%;
+    height: 100vh;
+  }
+
+/* .iconsdiv{
+    width:20px; height:20px;
+    background-image:url("../../assets/icons/clinics.png");
+    background-size: 20px 20px;
+} */
