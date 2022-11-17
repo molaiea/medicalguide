@@ -10,6 +10,8 @@ import opticiens from '../../data/opticiens.json'
 import transfusion from '../../data/transfusion.json'
 import laboratoires from '../../data/laboratoires.json'
 import "./BaseMap.css"
+import Checkbox from '@mui/material/Checkbox';
+const label = { inputProps: { 'aria-label': 'Checkbox demo' } };
 
 
 function BaseMap() {
@@ -37,9 +39,18 @@ function BaseMap() {
   return null
   }
   return(
-    <MapContainer center={[34, -6]} zoom={8}>
+    <div className="mainContainer">
+      <MapContainer className="mymap" center={[34, -6]} zoom={8}>
       <MyMap />
     </MapContainer>
+      <div className="checkContainer">
+      <Checkbox {...label} defaultChecked />
+      <Checkbox {...label} />
+      <Checkbox {...label} disabled />
+      <Checkbox {...label} disabled checked />
+      </div>
+    </div>
+
   )
 }
 
