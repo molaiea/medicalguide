@@ -40,15 +40,16 @@ function BaseMap() {
   }
   return(
     <div className="mainContainer">
-      <MapContainer className="mymap" center={[34, -6]} zoom={8}>
-      <MyMap />
-    </MapContainer>
       <div className="checkContainer">
       <Checkbox {...label} defaultChecked />
       <Checkbox {...label} />
       <Checkbox {...label} disabled />
       <Checkbox {...label} disabled checked />
       </div>
+      <MapContainer className="mymap" center={[34, -6]} zoom={8}>
+      <MyMap />
+    </MapContainer>
+      
     </div>
 
   )
