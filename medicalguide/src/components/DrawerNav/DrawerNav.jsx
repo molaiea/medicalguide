@@ -18,6 +18,8 @@ import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemText from '@mui/material/ListItemText';
 import InboxIcon from '@mui/icons-material/MoveToInbox';
 import MailIcon from '@mui/icons-material/Mail';
+import Checkbox from '@material-ui/core/Checkbox';
+import FormControlLabel from '@material-ui/core/FormControlLabel';
 
 const drawerWidth = 240;
 
@@ -66,7 +68,7 @@ const DrawerHeader = styled('div')(({ theme }) => ({
   justifyContent: 'flex-end',
 }));
 
-export default function PersistentDrawerLeft() {
+export default function DrawerNav() {
   const theme = useTheme();
   const [open, setOpen] = React.useState(false);
 
@@ -117,15 +119,12 @@ export default function PersistentDrawerLeft() {
         </DrawerHeader>
         <Divider />
         <List>
-          {['Inbox', 'Starred', 'Send email', 'Drafts'].map((text, index) => (
-            <ListItem key={text} disablePadding>
-              <ListItemButton>
-                <ListItemIcon>
-                  {index % 2 === 0 ? <InboxIcon /> : <MailIcon />}
-                </ListItemIcon>
-                <ListItemText primary={text} />
-              </ListItemButton>
-            </ListItem>
+          {['Pharmacies', 'Hôpitaux', 'Centres de diffusion sanguine'].map((text, index) => (
+            <FormControlLabel style={{"margin-left":'10px'}}
+            id={"checkbox"+index.toString()}
+            control={<Checkbox  name="checkedA" />}
+            label={text}
+          />
           ))}
         </List>
         <Divider />

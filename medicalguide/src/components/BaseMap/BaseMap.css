@@ -27,3 +27,25 @@
   position: relative;
   z-index: 1;
 }
+
+.my_container{
+  display: flex;
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.map_layer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+.container_2 {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}

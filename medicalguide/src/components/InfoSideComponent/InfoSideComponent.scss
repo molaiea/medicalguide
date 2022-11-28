@@ -1,0 +1,40 @@
+.info_comp {
+    width: 30%;
+    margin-top: 0;
+    padding-top: 0;
+    margin-right: 0;
+    margin-left: auto;
+    background-color: rgb(240, 240, 240);
+    color: black;
+    border-radius: 5px 0px 0px 5px;
+    padding: 0.2rem 0 0 1.2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.info_image {
+    height: 20rem;
+    width: 95%;
+    border-radius: 5px;
+    box-shadow: 10px;
+}
+
+.direction_button{
+    width: 50%;
+}
+
+.clear_icon{
+    margin-top: 0.5rem;
+}
+
+.clear_icon:hover{
+    cursor: pointer;
+    background-color: white;
+}
+@media screen and (max-width: 480px) {
+    .info_comp{
+        display: flex;
+        width: auto;
+    }
+  }

@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import '../../scss/index';
+
+.logo_img{
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: -6px;
+}
+
+
+.title{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1rem;
+    display: flex;
+    width: fit-content;
+}
+.title h1{
+    margin: 0 ;
+    padding: 0;
+    padding-top: 7%;
+    color: white;
+    transition: all 1s;
+}
+.title h1:hover{
+    color: $color-gold-light;
+}
+
+.menu{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.navigation {
+    align-items: center;
+    background: $color-dark-hero;
+    display: flex;
+    left: 0;
+    padding-bottom: 4px;
+    right: 0;
+    top: 0;
+  
+    &__language-menu {
+      flex: 0 0 auto;
+      padding: 0 10px;
+    }
+  
+    &__link {
+      color: $color-gray;
+      display: block;
+      font-weight: 700;
+      padding: 5px 10px;
+      text-decoration: none;
+      text-transform: capitalize;
+  
+      &--is-active {
+        text-decoration: underline;
+      }
+  
+      &:hover {
+        color: $color-gold-light;
+      }
+    }
+  
+    &__logo-link {
+      background: $color-dark-hero;
+      border-radius: 50%;
+      box-sizing: border-box;
+      display: block;
+      flex: 0 0 auto;
+      margin: 0 10px;
+      text-decoration: none;
+      transition-duration: 250ms;
+      transition-property: background;
+  
+      
+  
+      &--active,
+      &:active {
+        background: transparent;
+      }
+    }
+  
+    &__menu {
+      flex: 1 1 auto;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+  
+    &__menu-item {
+      display: inline-block;
+      margin: 0 5px;
+    }
+  }
+  

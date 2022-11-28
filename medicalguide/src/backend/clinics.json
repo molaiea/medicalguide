@@ -182,6 +182,239 @@
     {
         "type": "Feature",
         "geometry": {
+            "type": "LineString",
+            "coordinates": [
+                [
+                    -6.841583,
+                    34.0105436
+                ],
+                [
+                    -6.8413309,
+                    34.010757
+                ],
+                [
+                    -6.8417325,
+                    34.0109408
+                ],
+                [
+                    -6.8418566,
+                    34.0107637
+                ],
+                [
+                    -6.841583,
+                    34.0105436
+                ]
+            ]
+        },
+        "properties": {
+            "amenity": "hospital",
+            "healthcare": "hospital",
+            "healthcare:speciality": "cardiology",
+            "name": "Clinique Belvedere Centre De Cardiologie"
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "LineString",
+            "coordinates": [
+                [
+                    -6.8416959,
+                    34.0137056
+                ],
+                [
+                    -6.8416025,
+                    34.0137791
+                ],
+                [
+                    -6.8414157,
+                    34.0136397
+                ],
+                [
+                    -6.8415068,
+                    34.0135507
+                ],
+                [
+                    -6.8416959,
+                    34.0137056
+                ]
+            ]
+        },
+        "properties": {
+            "addr:street": "Rue Houssali",
+            "amenity": "clinic",
+            "building": "commercial",
+            "name": "Clinique Atlas",
+            "source": "knowledge"
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "LineString",
+            "coordinates": [
+                [
+                    -6.842376,
+                    34.0174269
+                ],
+                [
+                    -6.8423148,
+                    34.0173495
+                ],
+                [
+                    -6.8421632,
+                    34.0173677
+                ],
+                [
+                    -6.842169,
+                    34.0174172
+                ],
+                [
+                    -6.8421923,
+                    34.0174583
+                ],
+                [
+                    -6.8422419,
+                    34.0174981
+                ],
+                [
+                    -6.842376,
+                    34.0174269
+                ]
+            ]
+        },
+        "properties": {
+            "amenity": "clinic",
+            "building": "yes",
+            "name": "Clinique des orangers",
+            "name:fr": "Clinique des orangers"
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "LineString",
+            "coordinates": [
+                [
+                    -6.8227082,
+                    34.0131293
+                ],
+                [
+                    -6.8225654,
+                    34.013154
+                ],
+                [
+                    -6.822499,
+                    34.0129737
+                ],
+                [
+                    -6.822678,
+                    34.0129117
+                ],
+                [
+                    -6.8227317,
+                    34.0130495
+                ],
+                [
+                    -6.8226814,
+                    34.0130626
+                ],
+                [
+                    -6.8227082,
+                    34.0131293
+                ]
+            ]
+        },
+        "properties": {
+            "amenity": "hospital",
+            "building": "yes",
+            "name": "Clinique El Amal"
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "LineString",
+            "coordinates": [
+                [
+                    -6.8239888,
+                    34.0152895
+                ],
+                [
+                    -6.8238182,
+                    34.015293
+                ],
+                [
+                    -6.823811,
+                    34.0150512
+                ],
+                [
+                    -6.8239816,
+                    34.0150477
+                ],
+                [
+                    -6.8239888,
+                    34.0152895
+                ]
+            ]
+        },
+        "properties": {
+            "amenity": "hospital",
+            "healthcare": "hospital",
+            "name": "Clinique Benjelloum"
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "LineString",
+            "coordinates": [
+                [
+                    -6.8511587,
+                    33.9957376
+                ],
+                [
+                    -6.8511561,
+                    33.9957076
+                ],
+                [
+                    -6.8511413,
+                    33.9956709
+                ],
+                [
+                    -6.8511199,
+                    33.9956387
+                ],
+                [
+                    -6.8510971,
+                    33.9956064
+                ],
+                [
+                    -6.8509643,
+                    33.995662
+                ],
+                [
+                    -6.8510139,
+                    33.995781
+                ],
+                [
+                    -6.8511587,
+                    33.9957376
+                ]
+            ]
+        },
+        "properties": {
+            "addr:street": "Avenue Ibn Sina",
+            "amenity": "hospital",
+            "building": "yes",
+            "emergency": "yes",
+            "healthcare": "hospital",
+            "name": "Clinique Agdal"
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
             "type": "MultiPolygon",
             "coordinates": [
                 [
@@ -439,6 +672,230 @@
     {
         "type": "Feature",
         "geometry": {
+            "type": "LineString",
+            "coordinates": [
+                [
+                    -6.8246339,
+                    34.0324354
+                ],
+                [
+                    -6.8246363,
+                    34.032305
+                ],
+                [
+                    -6.8243795,
+                    34.0323176
+                ],
+                [
+                    -6.8242978,
+                    34.0324553
+                ],
+                [
+                    -6.8241506,
+                    34.032541
+                ],
+                [
+                    -6.8241463,
+                    34.032599
+                ],
+                [
+                    -6.8243212,
+                    34.032605
+                ],
+                [
+                    -6.82448,
+                    34.0325978
+                ],
+                [
+                    -6.8244894,
+                    34.0326464
+                ],
+                [
+                    -6.8246233,
+                    34.0325677
+                ],
+                [
+                    -6.8246184,
+                    34.0324744
+                ],
+                [
+                    -6.8246339,
+                    34.0324354
+                ]
+            ]
+        },
+        "properties": {
+            "amenity": "clinic",
+            "building": "yes",
+            "name": "Clinique Beaus\u00e9jour",
+            "phone": "+212 5377-81313"
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "LineString",
+            "coordinates": [
+                [
+                    -6.8443335,
+                    34.0073903
+                ],
+                [
+                    -6.8440817,
+                    34.0073757
+                ],
+                [
+                    -6.8440905,
+                    34.0071852
+                ],
+                [
+                    -6.8443468,
+                    34.0072072
+                ],
+                [
+                    -6.8443335,
+                    34.0073903
+                ]
+            ]
+        },
+        "properties": {
+            "amenity": "clinic",
+            "building": "yes",
+            "name": "Clinique De La Vision de Rabat",
+            "phone": "+212 537 676666"
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "LineString",
+            "coordinates": [
+                [
+                    -6.8443865,
+                    34.0068153
+                ],
+                [
+                    -6.844117,
+                    34.0068373
+                ],
+                [
+                    -6.8440993,
+                    34.0067164
+                ],
+                [
+                    -6.8443688,
+                    34.0066981
+                ],
+                [
+                    -6.8443865,
+                    34.0068153
+                ]
+            ]
+        },
+        "properties": {
+            "addr:city": "Rabat",
+            "addr:housenumber": "32",
+            "addr:postcode": "10090",
+            "addr:street": "Avenue Ibn Khaldoun \u0634\u0627\u0631\u0639 \u0627\u0628\u0646 \u062e\u0644\u062f\u0648\u0646",
+            "amenity": "clinic",
+            "building": "yes",
+            "healthcare:speciality": "surgery;general;cardiology",
+            "name": "Clinique Ibn Khaldoun \u0645\u0635\u062d\u0629 \u0625\u0628\u0646 \u062e\u0644\u062f\u0648\u0646",
+            "name:ar": "\u0645\u0635\u062d\u0629 \u0625\u0628\u0646 \u062e\u0644\u062f\u0648\u0646",
+            "name:fr": "Clinique Ibn Khaldoun",
+            "opening_hours:covid19": "open",
+            "phone": "+212 537 776767"
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "LineString",
+            "coordinates": [
+                [
+                    -6.8490185,
+                    33.9895838
+                ],
+                [
+                    -6.8488546,
+                    33.9894546
+                ],
+                [
+                    -6.8488048,
+                    33.9894153
+                ],
+                [
+                    -6.8488775,
+                    33.989352
+                ],
+                [
+                    -6.8491359,
+                    33.9891267
+                ],
+                [
+                    -6.8493496,
+                    33.9892953
+                ],
+                [
+                    -6.8491465,
+                    33.9894702
+                ],
+                [
+                    -6.8490316,
+                    33.9895724
+                ],
+                [
+                    -6.8490185,
+                    33.9895838
+                ]
+            ]
+        },
+        "properties": {
+            "amenity": "hospital",
+            "name": "Clinique des Nations Unies"
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "LineString",
+            "coordinates": [
+                [
+                    -6.8665847,
+                    33.9466913
+                ],
+                [
+                    -6.8665098,
+                    33.9461272
+                ],
+                [
+                    -6.8661724,
+                    33.9462693
+                ],
+                [
+                    -6.8659475,
+                    33.9466025
+                ],
+                [
+                    -6.8659475,
+                    33.9467979
+                ],
+                [
+                    -6.8665847,
+                    33.9466913
+                ]
+            ]
+        },
+        "properties": {
+            "amenity": "clinic",
+            "building": "yes",
+            "healthcare": "clinic",
+            "name": "Clinique Pasteur"
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
             "type": "MultiPolygon",
             "coordinates": [
                 [
@@ -678,6 +1135,39 @@
             "building": "yes",
             "healthcare": "clinic",
             "name": "Clinique Pasteur"
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "LineString",
+            "coordinates": [
+                [
+                    -6.9200106,
+                    33.9369694
+                ],
+                [
+                    -6.919724,
+                    33.9372223
+                ],
+                [
+                    -6.9203584,
+                    33.9377367
+                ],
+                [
+                    -6.9206504,
+                    33.9374641
+                ],
+                [
+                    -6.9200106,
+                    33.9369694
+                ]
+            ]
+        },
+        "properties": {
+            "amenity": "hospital",
+            "healthcare": "hospital",
+            "name": "Polyclinique"
         }
     },
     {
@@ -933,6 +1423,83 @@
     {
         "type": "Feature",
         "geometry": {
+            "type": "LineString",
+            "coordinates": [
+                [
+                    -6.8416959,
+                    34.0137056
+                ],
+                [
+                    -6.8416025,
+                    34.0137791
+                ],
+                [
+                    -6.8414157,
+                    34.0136397
+                ],
+                [
+                    -6.8415068,
+                    34.0135507
+                ],
+                [
+                    -6.8416959,
+                    34.0137056
+                ]
+            ]
+        },
+        "properties": {
+            "addr:street": "Rue Houssali",
+            "amenity": "clinic",
+            "building": "commercial",
+            "name": "Clinique Atlas",
+            "source": "knowledge"
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "LineString",
+            "coordinates": [
+                [
+                    -6.842376,
+                    34.0174269
+                ],
+                [
+                    -6.8423148,
+                    34.0173495
+                ],
+                [
+                    -6.8421632,
+                    34.0173677
+                ],
+                [
+                    -6.842169,
+                    34.0174172
+                ],
+                [
+                    -6.8421923,
+                    34.0174583
+                ],
+                [
+                    -6.8422419,
+                    34.0174981
+                ],
+                [
+                    -6.842376,
+                    34.0174269
+                ]
+            ]
+        },
+        "properties": {
+            "amenity": "clinic",
+            "building": "yes",
+            "name": "Clinique des orangers",
+            "name:fr": "Clinique des orangers"
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
             "type": "MultiPolygon",
             "coordinates": [
                 [
@@ -1013,6 +1580,347 @@
             "building": "yes",
             "name": "Clinique des orangers",
             "name:fr": "Clinique des orangers"
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "LineString",
+            "coordinates": [
+                [
+                    -6.8246339,
+                    34.0324354
+                ],
+                [
+                    -6.8246363,
+                    34.032305
+                ],
+                [
+                    -6.8243795,
+                    34.0323176
+                ],
+                [
+                    -6.8242978,
+                    34.0324553
+                ],
+                [
+                    -6.8241506,
+                    34.032541
+                ],
+                [
+                    -6.8241463,
+                    34.032599
+                ],
+                [
+                    -6.8243212,
+                    34.032605
+                ],
+                [
+                    -6.82448,
+                    34.0325978
+                ],
+                [
+                    -6.8244894,
+                    34.0326464
+                ],
+                [
+                    -6.8246233,
+                    34.0325677
+                ],
+                [
+                    -6.8246184,
+                    34.0324744
+                ],
+                [
+                    -6.8246339,
+                    34.0324354
+                ]
+            ]
+        },
+        "properties": {
+            "amenity": "clinic",
+            "building": "yes",
+            "name": "Clinique Beaus\u00e9jour",
+            "phone": "+212 5377-81313"
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "LineString",
+            "coordinates": [
+                [
+                    -6.8443335,
+                    34.0073903
+                ],
+                [
+                    -6.8440817,
+                    34.0073757
+                ],
+                [
+                    -6.8440905,
+                    34.0071852
+                ],
+                [
+                    -6.8443468,
+                    34.0072072
+                ],
+                [
+                    -6.8443335,
+                    34.0073903
+                ]
+            ]
+        },
+        "properties": {
+            "amenity": "clinic",
+            "building": "yes",
+            "name": "Clinique De La Vision de Rabat",
+            "phone": "+212 537 676666"
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "LineString",
+            "coordinates": [
+                [
+                    -6.8443865,
+                    34.0068153
+                ],
+                [
+                    -6.844117,
+                    34.0068373
+                ],
+                [
+                    -6.8440993,
+                    34.0067164
+                ],
+                [
+                    -6.8443688,
+                    34.0066981
+                ],
+                [
+                    -6.8443865,
+                    34.0068153
+                ]
+            ]
+        },
+        "properties": {
+            "addr:city": "Rabat",
+            "addr:housenumber": "32",
+            "addr:postcode": "10090",
+            "addr:street": "Avenue Ibn Khaldoun \u0634\u0627\u0631\u0639 \u0627\u0628\u0646 \u062e\u0644\u062f\u0648\u0646",
+            "amenity": "clinic",
+            "building": "yes",
+            "healthcare:speciality": "surgery;general;cardiology",
+            "name": "Clinique Ibn Khaldoun \u0645\u0635\u062d\u0629 \u0625\u0628\u0646 \u062e\u0644\u062f\u0648\u0646",
+            "name:ar": "\u0645\u0635\u062d\u0629 \u0625\u0628\u0646 \u062e\u0644\u062f\u0648\u0646",
+            "name:fr": "Clinique Ibn Khaldoun",
+            "opening_hours:covid19": "open",
+            "phone": "+212 537 776767"
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "LineString",
+            "coordinates": [
+                [
+                    -6.8665847,
+                    33.9466913
+                ],
+                [
+                    -6.8665098,
+                    33.9461272
+                ],
+                [
+                    -6.8661724,
+                    33.9462693
+                ],
+                [
+                    -6.8659475,
+                    33.9466025
+                ],
+                [
+                    -6.8659475,
+                    33.9467979
+                ],
+                [
+                    -6.8665847,
+                    33.9466913
+                ]
+            ]
+        },
+        "properties": {
+            "amenity": "clinic",
+            "building": "yes",
+            "healthcare": "clinic",
+            "name": "Clinique Pasteur"
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "LineString",
+            "coordinates": [
+                [
+                    -6.8327602,
+                    34.0158584
+                ],
+                [
+                    -6.8326597,
+                    34.0159141
+                ],
+                [
+                    -6.8325744,
+                    34.0158084
+                ],
+                [
+                    -6.8325799,
+                    34.0158053
+                ],
+                [
+                    -6.8327431,
+                    34.0157149
+                ],
+                [
+                    -6.8327999,
+                    34.0157853
+                ],
+                [
+                    -6.8327317,
+                    34.0158231
+                ],
+                [
+                    -6.8327602,
+                    34.0158584
+                ]
+            ]
+        },
+        "properties": {
+            "addr:street": "Rue Tissa",
+            "amenity": "clinic",
+            "building": "commercial",
+            "name": "Top Medical",
+            "source": "Kaart Ground Survey"
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "LineString",
+            "coordinates": [
+                [
+                    -6.832125,
+                    34.0163449
+                ],
+                [
+                    -6.8320633,
+                    34.0164283
+                ],
+                [
+                    -6.8318594,
+                    34.0164138
+                ],
+                [
+                    -6.8318647,
+                    34.016366
+                ],
+                [
+                    -6.8320257,
+                    34.0163783
+                ],
+                [
+                    -6.8320678,
+                    34.0163308
+                ],
+                [
+                    -6.8321021,
+                    34.016316
+                ],
+                [
+                    -6.832125,
+                    34.0163449
+                ]
+            ]
+        },
+        "properties": {
+            "addr:street": "Rue Tobrouk",
+            "amenity": "clinic",
+            "building": "commercial",
+            "healthcare": "clinic",
+            "name": "Actilab Mat\u00e9riel M\u00e9dical",
+            "source": "Kaart Ground Survey"
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "LineString",
+            "coordinates": [
+                [
+                    -6.8471271,
+                    33.9708404
+                ],
+                [
+                    -6.8468455,
+                    33.9710984
+                ],
+                [
+                    -6.8466266,
+                    33.9709341
+                ],
+                [
+                    -6.8469082,
+                    33.9706761
+                ],
+                [
+                    -6.8471271,
+                    33.9708404
+                ]
+            ]
+        },
+        "properties": {
+            "amenity": "clinic",
+            "building": "commercial",
+            "name": "Red Med",
+            "source": "Kaart Ground Survey"
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "LineString",
+            "coordinates": [
+                [
+                    -6.7892494,
+                    34.0505838
+                ],
+                [
+                    -6.7891485,
+                    34.0505202
+                ],
+                [
+                    -6.7891985,
+                    34.0504658
+                ],
+                [
+                    -6.7892994,
+                    34.0505294
+                ],
+                [
+                    -6.7892494,
+                    34.0505838
+                ]
+            ]
+        },
+        "properties": {
+            "addr:street": "Avenue Assalam",
+            "amenity": "clinic",
+            "building": "yes",
+            "building:levels": "4",
+            "name": "Cabinet Medical",
+            "source": "Kaart Ground Survey 2018"
         }
     },
     {
@@ -1391,6 +2299,40 @@
     {
         "type": "Feature",
         "geometry": {
+            "type": "LineString",
+            "coordinates": [
+                [
+                    -6.853378,
+                    33.9883136
+                ],
+                [
+                    -6.8532211,
+                    33.9883102
+                ],
+                [
+                    -6.853227,
+                    33.9881168
+                ],
+                [
+                    -6.853384,
+                    33.9881201
+                ],
+                [
+                    -6.853378,
+                    33.9883136
+                ]
+            ]
+        },
+        "properties": {
+            "amenity": "clinic",
+            "building": "yes",
+            "name": "Ibn Rochd",
+            "phone": "+212537670304"
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
             "type": "MultiPolygon",
             "coordinates": [
                 [
@@ -1424,6 +2366,55 @@
             "building": "yes",
             "name": "Ibn Rochd",
             "phone": "+212537670304"
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "LineString",
+            "coordinates": [
+                [
+                    -6.8607909,
+                    33.9500252
+                ],
+                [
+                    -6.8606367,
+                    33.9500886
+                ],
+                [
+                    -6.8604771,
+                    33.9498594
+                ],
+                [
+                    -6.8607789,
+                    33.9497649
+                ],
+                [
+                    -6.8608392,
+                    33.9499006
+                ],
+                [
+                    -6.8607306,
+                    33.9499351
+                ],
+                [
+                    -6.8607909,
+                    33.9500252
+                ]
+            ]
+        },
+        "properties": {
+            "addr:city": "\u0627\u0644\u0631\u0628\u0627\u0637",
+            "addr:street": "\u0634\u0627\u0631\u0639 \u0627\u0644\u0646\u062e\u064a\u0644",
+            "amenity": "clinic",
+            "building": "yes",
+            "healthcare": "clinic",
+            "healthcare:speciality": "general;oncology;maternity;emergency;surgery",
+            "name": "\u0627\u0644\u0645\u0635\u062d\u0629 \u0627\u0644\u062f\u0648\u0644\u064a\u0629 \u0631\u064a\u0627\u0636 \u0627\u0644\u0646\u062e\u064a\u0644",
+            "name:ar": "\u0627\u0644\u0645\u0635\u062d\u0629 \u0627\u0644\u062f\u0648\u0644\u064a\u0629 \u0631\u064a\u0627\u0636 \u0627\u0644\u0646\u062e\u064a\u0644",
+            "name:en": "Riad Annakhil International Polyclinic",
+            "name:fr": "Polyclinique Internationale Riad Annakhil (PIRA)",
+            "opening_hours": "24/7"
         }
     },
     {

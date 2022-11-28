@@ -11,7 +11,7 @@ import opticiens from '../../data/opticiens.json'
 import transfusion from '../../data/transfusion.json'
 import laboratoires from '../../data/laboratoires.json'
 import "leaflet-routing-machine"
-import { createControlComponent } from "@react-leaflet/core";
+
 
 const POSITION_CLASSES = {
     bottomleft: 'leaflet-bottom leaflet-left',
@@ -19,6 +19,7 @@ const POSITION_CLASSES = {
     topleft: 'leaflet-top leaflet-left',
     topright: 'leaflet-top leaflet-right',
   }
+  
   const mydata = [clinics, pharmas, dentists, opticiens, transfusion, laboratoires];
   const BOUNDS_STYLE = { weight: 1 }
   
@@ -35,6 +36,7 @@ const POSITION_CLASSES = {
     useMapEvent('click', onClick)
   
     // Keep track of bounds in state to trigger renders
+    
     const [bounds, setBounds] = useState(parentMap.getBounds())
     const onChange = useCallback(() => {
       setBounds(parentMap.getBounds())
@@ -49,20 +51,41 @@ const POSITION_CLASSES = {
     return <Rectangle bounds={bounds} pathOptions={BOUNDS_STYLE} />
   }
   
- export function MinimapControl({ position, zoom}) {
+ export function MinimapControl({ position, zoom, updateLocation}) {
     var parentMap = useMap()
-    
-  mydata.map((item)=>{
-    L.geoJSON(item.features, {
-      
-      pointToLayer: function(feature, latlng){
-        var myIcon = L.icon({
-          iconUrl: require('../../assets/icons/'.concat(item.name, '.png')),
-          iconSize:     [15, 15], // size of the icon
-      });
-      return L.marker([latlng.lat, latlng.lng], {icon: myIcon})
-      }
-    }).addTo(parentMap)})
+    const [coords, setCoords] = useState([0,0])
+    const [isShown, setIsShown] = useState(0)
+
+    var osm = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19,
+    attribution: '© OpenStreetMap'
+    });
+    var baseMaps = {
+      "OpenStreetMap": osm
+    };
+
+    function handleClick(e){
+      // setIsShown(1);
+      updateLocation([e.latlng.lat, e.latlng.lng])
+    }
+
+    var mylayers = {}
+    mydata.map((item)=>{
+      var layer =L.geoJSON(item.features, {
+            pointToLayer: function(feature, latlng){
+              var myIcon = L.icon({
+                iconUrl: require('../../assets/icons/'.concat(item.name, '.png')),
+                iconSize:     [15, 15], // size of the icon
+            });
+            return L.marker([latlng.lat, latlng.lng], {icon: myIcon})
+            }
+                    })
+      layer.on("click", (e)=>handleClick(e))
+      mylayers[item.name] = layer
+          
+    })
+    var layerControl = L.control.layers(baseMaps, mylayers).addTo(parentMap);
+
 
     const mapZoom = zoom || 0
     
@@ -86,7 +109,7 @@ const POSITION_CLASSES = {
     )
   
     const positionClass =
-      (position && POSITION_CLASSES[position]) || POSITION_CLASSES.topright
+      (position && POSITION_CLASSES[position]) || POSITION_CLASSES.bottomright
     return (
       <div className={positionClass}>
         <div className="leaflet-control leaflet-bar">{minimap}</div>
